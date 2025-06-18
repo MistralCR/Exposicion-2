@@ -1,0 +1,13 @@
+/*Variables CSS*/
+:root {
+  --primary-pink: #e91e63;
+  --light-pink: #f8bbd9;
+  --dark-pink: #c2185b;
+  --gradient-pink: linear-gradient(to right, #e91e63, #f8bbd9);
+  --red-accent: #d32fd3;
+}
+/*General Styles*/
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
