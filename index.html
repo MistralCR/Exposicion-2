@@ -8,24 +8,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    /* Bootstrap CSS */
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
-    /* Font Awesome CSS */
+    <!-- Font Awesome CSS -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1 .1/animate.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       rel="stylesheet"
     />
-    /* Animate.css */
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Rozietec</a>
-
+        <a class="navbar-brand" href="#">Gundam Models</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,39 +33,183 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
+        <div class="collapse navbar-collapse" id="navdbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="#home">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SHOPS</a>
+              <a class="nav-link" href="#models">Modelos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                >PRODUCTS
-                <span class="new-badge">NEW</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PAGES</a>
+              <a class="nav-link" href="#contact">Contacto</a>
             </li>
           </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Hero Section-->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h1 class="hero-title">Coleccion Gundam Premium</h1>
+            <p class="hero-subtitle">
+              Descubre los mejores modelos de Mobile Suits para tu Coleccion
+            </p>
+            <button class="btn btn-primary btn-lg">Explorar Modelos</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Models Section-->
+    <section id="models" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Modelos Destacados</h2>
+        <div class="row g-4">
+          <!-- Card 1 - RX-78-2 Gundam -->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=250&fit=crop"
+                class="card-img-top"
+                alt="RX-78-2 Gundam"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">RX-78-2 Gundam</h5>
+                <p class="card-text flex-grow-1">
+                  El icónico Mobile Suit que inició la saga Universal Century.
+                  Modelo Perfect Grade con articulaciones completamente
+                  funcionales.
+                </p>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <span class="h5 mb-0">$89.99</span>
+                  <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <div class="navbar-icons">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-user"></i>
-            <div style="position: relative">
-              <i class="fas fa-shopping-cart"></i>
-              <span class="cart-badge">1</span>
+          <!-- Card 2 - Strike Freedom -->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=250&fit=crop"
+                class="card-img-top"
+                alt="Strike Freedom Gundam"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Strike Freedom Gundam</h5>
+                <p class="card-text flex-grow-1">
+                  El poderoso Mobile Suit de Kira Yamato con sus característicos
+                  cañones de plasma y alas de luz desplegables.
+                </p>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <span class="h5 mb-0">$124.99</span>
+                  <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 - Barbatos -->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1606041318043-73094c2c5504?w=400&h=250&fit=crop"
+                class="card-img-top"
+                alt="Gundam Barbatos"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Gundam Barbatos</h5>
+                <p class="card-text flex-grow-1">
+                  El feroz Mobile Suit de Iron-Blooded Orphans, conocido por su
+                  diseño robusto y combate cuerpo a cuerpo.
+                </p>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <span class="h5 mb-0">$94.99</span>
+                  <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </nav>
+    </section>
+    <!--Contact Form-->
+    <section id="contact" class="form-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="section-title">Contacto</h2>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="firstName" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="Tu nombre"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="lastName" class="form-label">Apellido</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Tu apellido"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="tu-email"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Mensaje</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Que modelo te interesa"
+                  ></textarea>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    Enviar Mensaje
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>
+              &copy; 2025 Gundam Models Collection. Todos los derechos
+              reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
